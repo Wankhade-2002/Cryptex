@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(images/b14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* height: 300px; */
+
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+
+  form label, form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 225px;
+    height: 25px;
+    font-size: 21px;
+    border-radius: 10px;
+  }
+  
+  #portfolioContainer {
+    margin-top: 50px;
+  }
+  
+  #portfolioList {
+    list-style-type: none;
+    padding: 0;
+    height: 180px;
+
+  }
+  
+  #portfolioList li {
+    margin-bottom: 10px;
+    color: #58d6a5;
+    font-size: 22px;
+  }
+  .container{
+   margin-left: 590px;
+  }
+  #btn {
+    width: 280px;
+    height: 41px;
+    background: #c68817;
+    margin-top: 19px;
+    border-radius: 18px;
+    font-size: 17px;
+    color: white;
+    margin-left: -30px;
+}
+#cry{
+    font-size: 34px;
+    margin-top: 100px;
+    color: burlywood;
+}
+#py
+{
+    font-size: 50px;
+    color: #fdfbf5;
+
+}
+  

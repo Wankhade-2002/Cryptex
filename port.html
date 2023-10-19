@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cryptocurrency Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="port.css">
+</head>
+<body>
+  
+  <h1 id="cry">Cryptocurrency Portfolio</h1>
+  <div class="container">
+  <form id="portfolioForm">
+    <label for="coinName">Coin Name:</label>
+    <input type="text" id="coinName" required>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" required>
+    <label for="price">Price:</label>
+    <input type="number" id="price" required>
+    
+    <button type="submit" id="btn">Add to Portfolio</button>
+  </form>
+  <div id="portfolioContainer">
+    <h2 id="py">PortFolio</h2>
+    <ul id="portfolioList"></ul>
+  </div>
+</div>  
+  <script src="port.js"></script>
+
+</body>
+</html>
